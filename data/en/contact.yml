@@ -1,0 +1,31 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contactez-nous
+  subtitle : Information
+  content : Nous sommes impatients de vous entendre et de répondre à vos questions. Que ce soit pour discuter de nos services, explorer des opportunités de collaboration ou simplement échanger des idées, n'hésitez pas à nous contacter. 
+
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "Hoaria-Nabeul-Tunisie"
+      
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Numero: +880-31-000-000"
+      
+    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+      info : "Fax: +880-31-000-000"
+      
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: KubeKloud@gmail.com"
+
+
+  # Contact form
+  contact_form:
+    enable : true
+    form_action : "#" #contact form works with https://formspree.io
+    name : "Nom"
+    email : "Email"
+    subject : "Sujet"
+    message : "Message"
+    submit : "Envoyer"

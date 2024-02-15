@@ -1,0 +1,76 @@
+#################################### portfolio ###############################
+portfolio:
+  enable : true
+  title : Nos tâches DevOps
+  portfolio_item :
+    # portfolio item loop
+    - name : 
+      image : project1
+      image_webp : images/portfolio/p1.png
+      categories : ["Infrastructure Migration Services"]
+      content : We fully clarify the underlying risks and plan out the migration process.
+      link : "https://themefisher.com"
+      
+    # portfolio item loop
+    - name : 
+      image : project2
+      image_webp : images/portfolio/p3.png
+      categories : ["Infrastructure Migration Services"]
+      content : We prepare the new project environment, automating specific aspects
+      link : ""
+      
+    # portfolio item loop
+    - name : 
+      image : images/portfolio/p2.png
+      image_webp : images/portfolio/p2.png
+      categories : ["Infrastructure Migration Services"]
+      content : We implement project migration, switch the DNS, and delete leftovers
+      link : "#"
+      
+    # portfolio item loop
+    - name : 
+      image : images/portfolio/cluster-deployment-high-resolution-logo.png
+      image_webp : images/portfolio/cluster-deployment-high-resolution-logo.png
+      categories : ["Kubernetes Deployment Services"]
+      content : Our specialists set up cloud-based, on-premise, and hybrid clusters
+      link : "#"
+      
+    # portfolio item loop
+    - name : 
+      image : images/portfolio/portfolio-5.jpg
+      image_webp : images/portfolio/p4.png
+      categories : ["Cloud Costs Optimization"]
+      content : Audit of cloud infrastructure processes helps point out extra costs
+      link : "#"
+      
+    # portfolio item loop
+    - name :
+      image : images/portfolio/p5.png
+      image_webp : images/portfolio/p5.png
+      categories : ["Cloud Costs Optimization"]
+      content : Historical project metrics monitoring and analysis keeps expenses stable
+      link : "#"
+      
+    # portfolio item loop
+    - name : Business Card
+      image : images/portfolio/p6.png
+      image_webp : images/portfolio/p6.png
+      categories : ["Cloud Costs Optimization"]
+      content : We’ll tell you how to optimize the budget and even forecast some costs
+      link : "#"
+      
+    # portfolio item loop
+    - name : Stationary Design
+      image : images/portfolio/cluster-set-up-high-resolution-logo.png
+      image_webp : images/pd/cluster-set-up-high-resolution-logo.png
+      categories : ["Kubernetes Deployment Services"]
+      content : A GitOps approach allows for the most efficient cluster deployment
+      link : "#"
+      
+    # portfolio item loop
+    - name : Tag Design
+      image : images/portfolio/monitoring-and-logging-high-resolution-logo.png
+      image_webp : images/portfolio/monitoring-and-logging-high-resolution-logo.png
+      categories : ["Kubernetes Deployment Services"]
+      content : We develop monitoring and logging solutions for K8s from scratch
+      link : "#"

@@ -1,0 +1,14 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image : "images/backgrounds/hero-area.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "DevOps en tant que service"
+  content : "Pour rationaliser les flux de travail et améliorer la scalabilité\n<br><br>
+  Associez votre développement logiciel et vos opérations informatiques avec l'automatisation DevOps basée sur le cloud pour atteindre des performances ultimes et des flux de travail internes parfaits.
+"
+  button:
+    enable : true
+    label : "Explore Us"
+    link : "#services"

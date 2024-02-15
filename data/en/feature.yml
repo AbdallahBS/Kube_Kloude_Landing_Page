@@ -1,0 +1,27 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
+  title : Nos Points Forts.
+  content : ""
+  feature_item : 
+      # feature item loop
+    - title : Créer une architecture de projet transparente
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Nous établissons des bases bien structurées et solides pour vos projets
+      
+      # feature item loop
+    - title : Finaliser les projets MVP pour la production
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Laissez les professionnels peaufiner et finaliser votre projet MVP
+
+      # feature item loop
+    - title : Automatiser CI/CD pour une mise sur le marché plus rapide
+      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      content : Utilisez des techniques d'automatisation CI/CD pour accélérer le déploiement
+      
+      # feature item loop
+    - title : Optimiser le budget et les coûts internes
+      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      content : Ajustez les flux de travail et les opérations pour réduire les dépenses inutiles<br><br><br><br><br>

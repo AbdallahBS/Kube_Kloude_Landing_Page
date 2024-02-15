@@ -1,0 +1,38 @@
+############################### team ############################
+team:
+  enable : true
+  title : Avantages de nos solutions DevOps
+  team_member :
+    # team member loop
+    - name : Accès à des ingénieurs DevOps professionnels
+      image_webp : images/team/team-1.jpg
+      image : images/team/team-1.jpg
+      designation : 
+      content : En engageant notre équipe DevOps, vous bénéficiez d'un accès rapide et facile à des ingénieurs DevOps expérimentés, capables de dynamiser votre projet dès le début avec leur expertise.
+      social :
+       
+    # team member loop
+    - name : Réduction des coûts
+      image_webp : images/team/n2.jpg
+      image : images/team/n2.jpg
+      designation : 
+      content : Grâce à l'amélioration des flux de travail, vous réduisez les dépenses inutiles. De plus, nous aidons les entreprises SaaS à réduire considérablement les coûts cloud et à les maîtriser.
+      social :
+       
+        
+    # team member loop
+    - name : Amélioration du support opérationnel
+      image_webp : images/team/n3.jpg
+      image : images/team/n3.jpg
+      designation : 
+      content : DevOps en tant que service simplifie le flux de données et d'informations d'un projet pour une collaboration plus pratique. Vous obtenez également une meilleure documentation et un meilleur contrôle qualité.
+      social :
+       
+    # team member loop
+    - name : Augmentation de l'agilité de l'équipe de développement
+      image_webp : images/team/n4.webp
+      image : images/team/n4.webp
+      designation :
+      content : En conséquence, les entreprises constatent des équipes plus heureuses et plus engagées, une vitesse plus rapide et des coûts de diffusion plus bas. Les développeurs bénéficient de plus de stockage de données et de puissance de calcul.
+      social :
+       

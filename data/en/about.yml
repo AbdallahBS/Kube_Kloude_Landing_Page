@@ -1,0 +1,16 @@
+############################# About ###################################
+about:
+  enable : true
+  title : CLients that implement DevOps
+  about_item :
+  - icon : https://itoutposts.com/wp-content/uploads/2021/03/image-2.png # themify icon pack : https://themify.me/themify-icons
+    title : 55%
+    content : Point out significant workflow improvements
+
+  - icon : https://itoutposts.com/wp-content/uploads/2021/11/logo_wht_2-2-1.png # themify icon pack : https://themify.me/themify-icons
+    title : 47%
+    content : Note higher end quality of products<br><br>
+
+  - icon : https://itoutposts.com/wp-content/uploads/2021/11/Group-581721.png # themify icon pack : https://themify.me/themify-icons
+    title : 63%
+    content : Observe reduced time-to-market<br><br>

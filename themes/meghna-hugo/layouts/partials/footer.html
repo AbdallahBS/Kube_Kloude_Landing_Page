@@ -1,0 +1,109 @@
+{{"<!-- end Contact Area -->" | safeHTML}}
+<div class="mt-5 pt-5 pb-5 footer">
+	<div class="container">
+	  <div class="row">
+		<div class="col-lg-5 col-xs-12 about-company">
+		  <h2 style="color: #73c9d8">Kube Kloude</h2>
+		  <p class="pr-5 text-white-50">Utilisez DevOps en tant que service pour l'alignement des processus et un boost de performance afin de livrer des projets sans faille.</p>
+
+		  <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+		  <div id="s">
+			<a href="https://itoutposts.com/wp-content/uploads/2022/06/IT_Outposts_presentation.pdf"><button type="submit" id="contact-submit" class="btn btn-transparent btn-block"  value="s" style="width: 100px;">Presentation</button>
+			</a></div>
+		</div>
+		<div class="col-lg-3 col-xs-12 links">
+			<h4 class="mt-lg-0 mt-sm-3" style="color: #73c9d8">Liens</h4>
+			<div class="scrollable-list">
+			  <ul class="m-0 p-0">
+			    <li><a href="https://itoutposts.com/aws-consulting-services/">Solutions de sécurité Cloud hybrides</a></li>
+                        <li><a href="https://itoutposts.com/managed-google-cloud/">Solutions Cloud hybrides pour Minneapolis</a></li>
+                        <li><a href="https://itoutposts.com/azure-managed-services-provider/">Solutions Cloud hybrides pour Waukesha</a></li>
+                        <li><a href="https://itoutposts.com/aws-kubernetes-managed-service/">Service Cloud privé</a></li>
+                        <li><a href="https://itoutposts.com/managed-kubernetes-services/">Services de consultation DevOps à Denver</a></li>
+                        <li><a href="https://itoutposts.com/it-security-audit-company/">Services de surveillance des serveurs Cloud</a></li>
+                        <li><a href="https://itoutposts.com/devops-monitoring/">Services de surveillance multi-Cloud</a></li>
+		
+			</ul>
+			</div>
+		</div>
+		<div class="col-lg-4 col-xs-12 location">
+		  <h4 class="mt-lg-0 mt-sm-4" style="color: #73c9d8">Location</h4>
+		  <p></p>
+		  <p>ElHouaria-Nabeul-Tunisie</p>
+		  <p class="mb-0"><i class="fa fa-phone mr-3"></i>+357 25 059376</p>
+		  <p><i class="fa fa-envelope-o mr-3"></i>KubeKloud@gmail.com</p>
+		</div>
+	  </div>
+	  <div class="row mt-5">
+		<div class="col copyright">
+		  <p class=""><small class="text-white-50">IT KubeKloud © 2024 |Platforme Vitrine</small></p>
+		</div>
+	  </div>
+	</div>
+	</div>
+	<style>
+		.scrollable-list {
+			  max-height: 200px; /* Adjust the height as needed */
+			  overflow-y: auto;
+			  scrollbar-width: thin; /* Firefox */
+			  scrollbar-color: rgb(54, 212, 186) #f4f4f4; /* Firefox */
+			}
+		
+			.scrollable-list::-webkit-scrollbar {
+			  width: 4px; /* Safari and Chrome */
+			}
+		
+			.scrollable-list::-webkit-scrollbar-thumb {
+			  background-color: rgb(66, 206, 183); /* Thumb color */
+			  border-radius: 4px; /* Rounded corners */
+			}
+		
+		  
+			/* Additional styles for the list items */
+			.scrollable-list ul {
+			  padding: 10px;
+			  margin: 0;
+			}
+			.scrollable-list a:hover {
+			  text-decoration: underline;
+			}
+		
+			 </style>
+{{"<!-- /footer -->" | safeHTML}}
+
+{{ "<!-- Google Map API -->" | safeHTML }}
+{{ if site.Params.map.enable }}
+<script src="{{ site.Params.map.gmap_api | safeURL }}"></script>
+{{ end }}
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify | fingerprint "sha384"}}
+<script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+
+<!-- cookie -->
+{{ if site.Params.cookies.enable }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-transparent">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires: {{ site.Params.cookies.expire_days }}
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+{{ end }}
